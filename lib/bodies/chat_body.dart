@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:gemini_test_app/message.dart';
 import 'package:gemini_test_app/app_constants.dart';
 
-/// *Creates widget to handle chat with gemini:
-/// *Displays [_MessageTile] with user's prompt and Gemini's response
-/// *Last item in list is animated with [_SlideInMessageWidget]
+/// Creates widget to handle chat with gemini:
+///
+/// * Displays [_MessageTile] with user's prompt and Gemini's response
+///
+/// * Last item in list is animated with [_SlideInMessageWidget]
 class ChatBody extends StatelessWidget {
   const ChatBody({
     super.key,

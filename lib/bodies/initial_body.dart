@@ -4,7 +4,11 @@ import 'package:gemini_test_app/cubit/app_cubit.dart';
 import 'package:gemini_test_app/message.dart';
 import 'package:gemini_test_app/app_constants.dart';
 
-/// *Displays InitialApp state with welcome message and basic prompts for user
+/// Displays InitialApp state with:
+///
+/// * welcome message
+///
+/// * basic prompts for user
 class InitialBody extends StatelessWidget {
   const InitialBody({
     super.key,
