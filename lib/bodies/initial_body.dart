@@ -84,18 +84,24 @@ class _StartingPromptTile extends StatelessWidget {
                   ),
                 ],
               ),
-              const Spacer(),
-              Text(
-                prompt,
-                overflow: TextOverflow.ellipsis,
-                textAlign: TextAlign.justify,
-                maxLines: 4,
-                style: TextStyle(
-                  fontSize: 18,
-                  foreground: Paint()..shader = AppConstants.appGradient,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(
+                  16,
+                  8,
+                  16,
+                  16,
+                ),
+                child: Text(
+                  prompt,
+                  overflow: TextOverflow.ellipsis,
+                  textAlign: TextAlign.left,
+                  maxLines: 4,
+                  style: TextStyle(
+                    fontSize: 18,
+                    foreground: Paint()..shader = AppConstants.appGradient,
+                  ),
                 ),
               ),
-              const Spacer(),
             ],
           ),
         ),
