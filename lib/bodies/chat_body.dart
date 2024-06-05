@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gemini_test_app/message.dart';
-import 'package:gemini_test_app/app_constants.dart';
+import 'package:gemini_test_app/model/message.dart';
+import 'package:gemini_test_app/utility/app_constants.dart';
 
 /// Creates widget to handle chat with gemini:
 ///
