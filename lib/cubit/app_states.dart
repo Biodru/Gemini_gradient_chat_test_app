@@ -10,6 +10,7 @@ abstract class AppState with _$AppState {
     ])
     List<String> prompts,
     @Default(false) bool isLoading,
+    DataPart? image,
     List<Message>? items,
   }) = _InitialState;
 }

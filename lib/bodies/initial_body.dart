@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gemini_test_app/cubit/app_cubit.dart';
-import 'package:gemini_test_app/message.dart';
-import 'package:gemini_test_app/app_constants.dart';
+import 'package:gemini_test_app/model/message.dart';
+import 'package:gemini_test_app/utility/app_constants.dart';
 
 /// Displays InitialApp state with:
 ///
